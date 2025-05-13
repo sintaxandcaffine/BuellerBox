@@ -1,0 +1,16 @@
+# python
+_pycache_/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtual Environment
+venv/
+
+#VSCode
+.vscode/
+
+# OS files
+.DS_StoreThumbs.db
+
