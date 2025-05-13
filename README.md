@@ -1,7 +1,17 @@
-
 <p align="center">
   <img src="assets/bueller_box_github.png" alt="Bueller Box Logo" width="320"/>
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/SinTaxAndCaffeine/BuellerBox" alt="Repo Size"/>
+  <img src="https://img.shields.io/github/commit-activity/m/SinTaxAndCaffeine/BuellerBox" alt="Commit Activity"/>
+  <img src="https://img.shields.io/github/last-commit/SinTaxAndCaffeine/BuellerBox" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/issues/SinTaxAndCaffeine/BuellerBox" alt="Open Issues"/>
+  [![License: MIT](https://img.shields.io/github/license/SinTaxAndCaffeine/BuellerBox)](https://github.com/SinTaxAndCaffeine/BuellerBox/blob/main/LICENSE)
+  <img src="https://img.shields.io/badge/built%20with-Python%203.10+-blue?logo=python" alt="Python Version"/>
+  <img src="https://img.shields.io/badge/Nerdvana-Approved%20Tool-ff69b4?style=flat-square&logo=data:image/svg+xml;base64,SGVyZSdzIHdoZXJlIHRoZSBuZXJkcyBzaXQ=" alt="Nerdvana Approved"/>
+</p>
+
 
 # 📦 Bueller Box
 
@@ -13,7 +23,7 @@ This is the ultimate WinAmp-style academic mixtape builder for the curious, the 
 ## 📁 Repository Structure
 
 ```
-BuellerBox/
+BuellerBox/-
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
