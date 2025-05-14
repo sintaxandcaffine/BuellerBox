@@ -12,21 +12,20 @@
   <img src="https://img.shields.io/badge/Nerdvana-Approved%20Tool-ff69b4?style=flat-square&logo=data:image/svg+xml;base64,SGVyZSdzIHdoZXJlIHRoZSBuZXJkcyBzaXQ=" alt="Nerdvana Approved"/>
 </p>
 
+# 📦 Bueller Box - Nerdvana Lecture Lifter Module
 
-# 📦 Bueller Box
-
-Welcome to **Bueller Box**, the retro-fueled lecture media collector from the Nerdvana suite.  
-This is the ultimate WinAmp-style academic mixtape builder for the curious, the nostalgic, and the always-late-to-class.
+Welcome to **Bueller Box**, the retro-fueled lecture media collector from the Nerdvana suite. This is the ultimate WinAmp-style academic mixtape builder for the curious, the nostalgic, and the always-late-to-class.
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-BuellerBox/-
+BuellerBox/
 ├── README.md
 ├── .gitignore
 ├── requirements.txt
+├── LICENSE
 ├── assets/
 │   ├── bueller_box_github.png
 │   ├── bueller_box_favicon_refined.png
@@ -37,66 +36,70 @@ BuellerBox/-
 │   └── nerdvana_it_awakens_migration.md
 ├── dev_log/
 │   └── PROJECT_LOG.md
-└── src/
-    ├── __init__.py
-    ├── kaltura_downloader.py
-    └── slides_capturer.py
+├── src/
+│   ├── __init__.py
+│   ├── kaltura_downloader.py
+│   ├── slides_capturer.py
+│   └── utils.py
+└── test_Bueller_Box.py
 ```
 
 ---
 
 ## 🎯 Module Purpose
-
 **Bueller Box** is a standalone module in the Nerd-Army-Calculator built to:
-
-- Capture and organize Google Slides, Kaltura videos, and lecture-related assets  
-- Archive transcripts, attachments, and metadata  
-- Store everything locally or sync to a structured Nerdvana cloud vault  
-- Do it all with unapologetic 90s flair  
+- Capture and organize Google Slides, Kaltura videos, and lecture-related assets
+- Archive transcripts, attachments, and metadata
+- Store everything locally or sync to a structured Nerdvana cloud vault
 
 ---
 
 ## 💾 Current Features
-
-- [ ] Google Slides Capturer (WIP)
-- [ ] Kaltura Downloader (WIP)
+- [x] Google Slides Capturer (metadata + PDF export working!)
+- [ ] Kaltura Downloader (stub scaffolded)
 - [ ] Lecture Timeline Annotator (TBD)
 - [ ] Transcript & Attachment Organizer
 - [ ] Retro-themed GUI w/ nostalgic skins
+- [x] CLI-based unified test runner with logging
 
 ---
 
 ## 🔧 Setup
-
 ```bash
 # Clone the repo
-git clone https://github.com/sintaxandcaffine/BuellerBox.git
-cd BuellerBox
+$ git clone https://github.com/SinTaxAndCaffeine/BuellerBox.git
+$ cd BuellerBox
 
-# Set up Python environment
-python -m venv venv
-# On PowerShell
-.env\Scripts\Activate.ps1
-
-# Install dependencies
-pip install -r requirements.txt
+# Set up environment (Python 3.10+)
+$ python -m venv venv
+$ .\venv\Scripts\activate  # On Windows
+$ pip install -r requirements.txt
 ```
 
 ---
 
-## 🏷️ Assets
+## 🚧 Dev Notes
+- Initial module stubs created for `kaltura_downloader.py`, `slides_capturer.py`, and `utils.py`
+- Built and verified `get_slide_metadata()` and `capture_slides()` with PDF export
+- Added CLI-based test runner via `test_Bueller_Box.py`
+- Enabled log saving to `test_exports/log.txt`
+- Confirmed valid published Google Slides format required for metadata extraction
 
-- Logo Badge: `assets/bueller_box_github.png`
-- Favicon/Icon: `assets/bueller_box_favicon_refined.png`
-- Stamped Vintage: `assets/bueller_box_stamped.png`
+---
+
+## 🐞 Known Issues / Fixes
+- ⚠️ **Invalid Slide URLs**: Private/unpublished links return "Page Not Found"
+  - ✅ Solution: Use "Publish to web" versions or ensure "Anyone with link can view"
+- 🧠 **User error with unquoted URLs** caused early syntax error in test file
+  - ✅ Resolved by wrapping the URL in quotes (Python string syntax)
+- 🧪 Some Google Slides URLs don't return actual title unless published or accessible without login
+  - ✅ Added fallback logic and testing URLs
 
 ---
 
 ## 🕹️ Retro Goals
+> "Life moves pretty fast. If you don’t stop and capture your lectures once in a while, you could miss it."
 
-> “Life moves pretty fast. If you don’t stop and capture your lectures once in a while, you could miss it.”  
-> — *Ferris, probably*
-
----
+Let the lecture lifting begin.
 
 > *Module powered by SinTaxAndCaffeine – For Nerds Who Never Skip Class.*
