@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/sintaxandcaffine/BuellerBox" alt="Repo Size"/>
-  <img src="https://img.shields.io/github/commit-activity/m/SinTaxAndCaffeine/BuellerBox" alt="Commit Activity"/>
+  <img src="https://img.shields.io/github/commit-activity/m/sintaxandcaffine/BuellerBox" alt="Commit Activity"/>
   <img src="https://img.shields.io/github/last-commit/sintaxandcaffine/BuellerBox" alt="Last Commit"/>
   <img src="https://img.shields.io/github/issues/sintaxandcaffine/BuellerBox" alt="Open Issues"/>
   <img src="https://img.shields.io/github/license/sintaxandcaffine/BuellerBox" alt="License"/>
