@@ -5,3 +5,5 @@
 2025-05-14 04:32:55,518 - INFO - Parsing slide URL: https://docs.google.com/presentation/d/1jRs7QULaSJYF4fNC0a7-l7pvjA-0xo_G/edit?usp=sharing
 2025-05-14 04:33:04,606 - INFO - Slides exported successfully to C:\Users\admin\documents\BuellerBox\src\test_exports\IC-08-P(V4)_Threats___Threat_Actors.pptx_-_Google_Slides.pdf
 2025-05-14 04:33:04,608 - INFO - Slide capture saved to: C:\Users\admin\documents\BuellerBox\src\test_exports
+2025-05-15 01:24:41,627 - INFO - Running Bookmark Loader Test...
+2025-05-15 01:24:41,630 - INFO - Loaded 197 bookmarks.
