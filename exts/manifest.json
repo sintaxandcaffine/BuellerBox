@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Bueller Tab Bridge",
+  "version": "1.0",
+  "description": "Background extension that collects open Chrome tabs and sends them to Bueller Box.",
+  "permissions": ["tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Bueller Bridge Active"
+  }
+}

@@ -1,16 +1,32 @@
-# python
-_pycache_/
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.log
+*$py.class
 
-# Virtual Environment
+# Virtual environment
 venv/
+ENV/
+env/
+.venv/
 
-#VSCode
+# Logs and local data
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# VS Code settings (if applicable)
 .vscode/
 
-# OS files
-.DS_StoreThumbs.db
+# MacOS
+.DS_Store
 
+# Test and export artifacts
+src/tab_logs/
+src/test_exports/
+
+# Chrome extension cache
+chrome-extension/
+
+# Misc
+*.swp
